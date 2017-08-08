@@ -1,0 +1,15 @@
+{
+  "name": "Garden",
+  "version": "0.0.1",
+  "description": "Human ressource managment applicaton",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ./",
+    "dist": "build",
+	  "dist-x": "build -ml",
+	  "release": "build"
+  },
+  "dependencies": {
+    "electron": "~1.6.2"
+  }
+}
